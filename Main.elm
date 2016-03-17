@@ -12,12 +12,13 @@ Fill in `view` to do so.
 Hint: use `List.map`
 -}
 
+
 main =
-  view [13, 59, -23, 9]
+  view [ 13, 59, -23, 9 ]
 
 
 view list =
-  -- ??
+  div [] (List.map viewNumber list)
 
 
 viewNumber num =
