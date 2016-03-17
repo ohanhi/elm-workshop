@@ -4,15 +4,21 @@ import Html exposing (..)
 
 
 {-
-Hello to you too, coder fellow!
+Let's try some basic functional programming with lists now.
 
-Now try taking the code out of `main`.
-Move it into a function called `view` and use that in `main`.
+We have a list of numbers that we want to show with `viewNumber`.
+Fill in `view` to do so.
 
-Once that works, try adding a parameter to the `view` function and give it a
-suitable value when calling it in `main`.
+Hint: use `List.map`
 -}
 
-
 main =
-  Html.text "Hello Elm"
+  view [13, 59, -23, 9]
+
+
+view list =
+  -- ??
+
+
+viewNumber num =
+  p [] [ text (toString num) ]
