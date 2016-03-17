@@ -4,26 +4,15 @@ import Html exposing (..)
 
 
 {-
-You should have Elm installed on your computer.
-If you do, go ahead and try to compile this file with:
+Hello to you too, coder fellow!
 
-    elm-make Main.elm
+Now try taking the code out of `main`.
+Move it into a function called `view` and use that in `main`.
 
-If this was the first time you do this in this directory, Elm will install some
-necessary packages and then give an error about this code.
-
-Your job is to make this compile and say "Hello Elm" using the Html package
-already imported for you.
-
-The easiest way to serve the compiled app is to either use
-
-    elm-reactor
-
-or
-
-    elm-live Main.elm
+Once that works, try adding a parameter to the `view` function and give it a
+suitable value when calling it in `main`.
 -}
 
 
 main =
-  0
+  Html.text "Hello Elm"
